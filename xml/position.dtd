@@ -1,0 +1,7 @@
+<!DOCTYPE chessboard[
+    <!ELEMENT chessboard (chess)*>
+    <!ELEMENT chess (color, position)>
+        <!ELEMENT color (#PCDATA)>
+        <!ELEMENT position (#PCDATA)>
+	<!ATTLIST chess type (pawn|knight|bishop|rock|queen|king) #REQUIRED>
+]>

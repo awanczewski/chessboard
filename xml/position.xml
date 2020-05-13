@@ -1,0 +1,64 @@
+<!DOCTYPE chessboard SYSTEM "position.dtd">
+<chessboard>
+
+    <chess type="pawn">
+        <color>BLACK</color>
+        <position>A4</position>
+    </chess>
+
+    <chess type="pawn">
+        <color>WHITE</color>
+        <position>C1</position>
+    </chess>
+
+    <chess type="knight">
+        <color>BLACK</color>
+        <position>D8</position>
+    </chess>
+
+    <chess type="knight">
+        <color>WHITE</color>
+        <position>B6</position>
+    </chess>
+
+    <chess type="bishop">
+        <color>BLACK</color>
+        <position>E5</position>
+    </chess>
+
+    <chess type="bishop">
+        <color>WHITE</color>
+        <position>F3</position>
+    </chess>
+
+    <chess type="rock">
+        <color>BLACK</color>
+        <position>H6</position>
+    </chess>
+
+    <chess type="rock">
+        <color>WHITE</color>
+        <position>G1</position>
+    </chess>
+
+    <chess type="queen">
+        <color>BLACK</color>
+        <position>A8</position>
+    </chess>
+
+    <chess type="queen">
+        <color>WHITE</color>
+        <position>B2</position>
+    </chess>
+
+    <chess type="king">
+        <color>BLACK</color>
+        <position>F7</position>
+    </chess>
+
+    <chess type="king">
+        <color>WHITE</color>
+        <position>E1</position>
+    </chess>
+    
+</chessboard>
